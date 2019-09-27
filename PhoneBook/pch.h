@@ -14,7 +14,7 @@
 #include<stdlib.h>
 #include<Windows.h>
 #include<string>
-
+#include<exception>
 #ifndef PCH_H
 #define PCH_H
 
