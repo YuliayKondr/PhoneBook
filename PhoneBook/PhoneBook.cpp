@@ -2,10 +2,22 @@
 //
 
 #include "pch.h"
-
+#include"UsersPhone.h"
+#include"User.h"
+using namespace std;
 int main()
 {
     std::cout << "Hello World!\n"; 
+	UsersPhone users;
+	User newUser;
+	char *a = new char[6]{ "Julia" };
+	char *b = new char[11]{ "0675114507" };
+	newUser.SetName(a, 6);
+	newUser.SetPhone(b, 11);
+	delete[]a;
+	delete[]b;
+	users.AddContact(newUser);
+	_getch();
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
