@@ -2,16 +2,16 @@
 class User
 {
 private:
-	unsigned int lenghtName;
-	unsigned int lenghPhone;
+	size_t lenghtName;
+	size_t lenghPhone;
 	char *name = nullptr;
 	char *phone = nullptr;
 public:
 	User();
 	char * GetName();
-	bool SetName(char * name, unsigned int lenght);
+	bool SetName(char * name, size_t lenght);
 	char * GetPhone();
-	bool SetPhone(char * phone, unsigned int lenght);
+	bool SetPhone(char * phone, size_t lenght);
 
 	~User();
 };

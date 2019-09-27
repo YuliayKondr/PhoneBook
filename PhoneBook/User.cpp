@@ -24,7 +24,7 @@ char * User::GetName()
 	return nullptr;
 }
 
-bool User::SetName(char * name, unsigned int lenght)
+bool User::SetName(char * name, size_t lenght)
 {
 	if (name != nullptr && lenght != 0)
 	{
@@ -59,7 +59,7 @@ char * User::GetPhone()
 	return nullptr;
 }
 
-bool User::SetPhone(char * phone, unsigned int lenght)
+bool User::SetPhone(char * phone, size_t lenght)
 {
 	if (phone != nullptr && lenght != 0)
 	{
