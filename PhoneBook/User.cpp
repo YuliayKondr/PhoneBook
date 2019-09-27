@@ -82,7 +82,7 @@ bool User::SetPhone(char * phone, size_t lenght)
 
 bool User::IsName()
 {
-	return this->name != nullptr ? ;
+	return this->name != nullptr;
 }
 
 bool User::IsPhone()
