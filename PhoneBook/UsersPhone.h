@@ -1,4 +1,5 @@
 #pragma once
+#include"User.h"
 class UsersPhone
 {
 private:	
@@ -8,6 +9,7 @@ private:
 	void InitiolaseArrays();
 public:
 	UsersPhone();
+	void AddContact(User &user);
 	~UsersPhone();
 };
 

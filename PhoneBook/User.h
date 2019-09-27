@@ -12,7 +12,8 @@ public:
 	bool SetName(char * name, size_t lenght);
 	char * GetPhone();
 	bool SetPhone(char * phone, size_t lenght);
-
+	bool IsName();
+	bool IsPhone();
 	~User();
 };
 
